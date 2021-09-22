@@ -18,7 +18,6 @@ controller.create = async (req, res) => {
 controller.edit = async (req, res) => {
     const { id } = req.params;
     const charge = {
-
         Estado: req.body.Estado,
         IdCobroUsuario: req.body.IdCobroUsuario,
         Monto: req.body.Monto,
